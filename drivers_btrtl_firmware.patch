@@ -1,0 +1,19 @@
+--- a/drivers/bluetooth/btrtl.c.orig        2023-05-24 11:26:39.187003855 -0700
++++ b/drivers/bluetooth/btrtl.c     2023-05-24 12:56:48.544374405 -0700
+@@ -1090,3 +1090,16 @@
+ MODULE_FIRMWARE("rtl_bt/rtl8852cu_config.bin");
+ MODULE_FIRMWARE("rtl_bt/rtl8851bu_fw.bin");
+ MODULE_FIRMWARE("rtl_bt/rtl8851bu_config.bin");
++/* limetech - add missing declarations */
++MODULE_FIRMWARE("rtl_bt/rtl8723d_fw.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8723d_config.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8761b_fw.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8761b_config.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8761bu_fw.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8761bu_config.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8821c_fw.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8821c_config.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8822cs_fw.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8822cs_config.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8822cu_fw.bin");
++MODULE_FIRMWARE("rtl_bt/rtl8822cu_config.bin");
